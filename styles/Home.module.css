@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
   text-align: left;
-  background-color: #282c34;
+  background-color: #02442b;
 }
 
 .AppHeader {
   height: 90px;
   display: flex;
-  background-color: black;
+  background-color: #02442b;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
   flex-wrap: wrap;
+  font-family: 'Press Start 2P';
 }
+
+
 
 .AppBody {
   height: 100%;
@@ -28,8 +32,9 @@
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: antiquewhite;
   padding-top: 50px;
+  font-family: 'Press Start 2P';
 }
 
 .form {
@@ -48,12 +53,14 @@
   padding: 15px;
   font-size: 16px;
   border: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Press Start 2P';
 }
 .formButton {
   margin: 10px 0 10px 0;
   padding: 15px;
   font-size: 16px;
   border: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Press Start 2P';
+  background-color: #04643f;
+  color: antiquewhite;
 }
