@@ -12,7 +12,7 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
     const wallets = [new PhantomWalletAdapter()]
 
     // Define the Solana network RPC endpoint
-    const endpoint = 'https://blue-fragrant-tree.solana-mainnet.quiknode.pro/f32f16f2ade36fb692a860f23b428b0c86d93403/'
+    const endpoint = //'ADD__YOUR_NODE_URL_HERE'
 
     // Return the JSX (HTML-like syntax) to be rendered by the component
     return (
